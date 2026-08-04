@@ -298,6 +298,6 @@ green and tests passing.
 
 ## Questions?
 
-Open a GitHub issue. The repo owner (jacobmsft) is the deciding voice
+Open a GitHub issue. The repo owner (sargeMonkey) is the deciding voice
 on anything in the "Locked decisions" table; everything else is fair
 game for discussion in a PR.

@@ -2,7 +2,7 @@
 
 - **Status:** Accepted
 - **Date:** 2026-06-24 (decision predates the repo; recorded retroactively)
-- **Deciders:** jacobmsft
+- **Deciders:** sargeMonkey
 
 ## Context and Problem Statement
 

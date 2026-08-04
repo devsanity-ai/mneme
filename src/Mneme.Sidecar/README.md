@@ -20,7 +20,7 @@ Authenticated (`Authorization: Bearer ${MNEME_BEARER_TOKEN}`):
 ```pwsh
 $env:MNEME_WORKSTREAM_ID = "sidecar-demo"
 $env:MNEME_SQLITE_PATH   = "$env:USERPROFILE\.mneme\sidecar.db"
-$env:MNEME_USER_ID       = "sujacob"
+$env:MNEME_USER_ID       = "<local-user>"
 $env:MNEME_BEARER_TOKEN  = "dev-token"
 dotnet run --project src/Mneme.Sidecar
 ```
@@ -31,7 +31,7 @@ dotnet run --project src/Mneme.Sidecar
 docker build -f src/Mneme.Sidecar/Dockerfile -t mneme/sidecar:dev .
 docker run --rm -p 8080:8080 -v ${PWD}/data:/data `
   -e MNEME_WORKSTREAM_ID=sidecar-demo `
-  -e MNEME_USER_ID=sujacob `
+  -e MNEME_USER_ID=<local-user> `
   -e MNEME_BEARER_TOKEN=dev-token `
   mneme/sidecar:dev
 ```

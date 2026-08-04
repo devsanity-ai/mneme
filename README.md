@@ -11,7 +11,7 @@ log. A *substrate* that other software calls into, and that quietly compresses
 everything an agent saw into useful, queryable, point-in-time-correct
 knowledge.
 
-[![CI](https://github.com/jacobmsft/mneme/actions/workflows/ci.yml/badge.svg)](https://github.com/jacobmsft/mneme/actions/workflows/ci.yml)
+[![CI](https://github.com/devsanity-ai/mneme/actions/workflows/ci.yml/badge.svg)](https://github.com/devsanity-ai/mneme/actions/workflows/ci.yml)
 [![License: Apache-2.0](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](LICENSE)
 [![.NET 8](https://img.shields.io/badge/.NET-8.0-512BD4)](https://dotnet.microsoft.com/)
 

@@ -2,7 +2,7 @@
 
 - **Status:** Accepted
 - **Date:** 2026-06-12
-- **Deciders:** jacobmsft
+- **Deciders:** sargeMonkey
 
 ## Context and Problem Statement
 
