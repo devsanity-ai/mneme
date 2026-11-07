@@ -1,0 +1,20 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <PackageId>Mneme.Code</PackageId>
+    <Title>Mneme.Code</Title>
+    <Description>Revision-scoped advisory code memory for Mneme: attributed repository conventions, architectural observations, and fix lessons with capability-checked typed retrieval.</Description>
+    <PackageTags>memory;agent;code;repository;mneme;profile</PackageTags>
+    <IsPackable>true</IsPackable>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Mneme\Mneme.csproj" />
+    <!-- Mneme bundles Contracts.dll; do not emit a separate package dependency. -->
+    <ProjectReference Include="..\Mneme.Contracts\Mneme.Contracts.csproj" PrivateAssets="all" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="README.md" Pack="true" PackagePath="\" />
+    <None Include="..\..\LICENSE" Pack="true" PackagePath="\" />
+    <None Include="..\..\NOTICE" Pack="true" PackagePath="\" />
+  </ItemGroup>
+</Project>

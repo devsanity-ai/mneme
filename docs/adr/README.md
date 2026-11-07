@@ -24,7 +24,9 @@ also good ADR candidates.
 | [0002](0002-ichatclient-over-semantic-kernel.md) | `IChatClient` instead of Semantic Kernel | Accepted |
 | [0003](0003-host-owns-chat-log.md) | Host owns the chat log; Mneme owns the interpretation | Accepted |
 | [0004](0004-multi-agent-and-dreaming.md) | Multi-agent shared workstreams + offline "dreaming" consolidation | Proposed |
-| [0005](0005-domain-profiles.md) | Domain profiles via a base Profile SDK + satellite packages | Proposed |
+| [0005](0005-domain-profiles.md) | Domain profiles via a base Profile SDK + satellite packages | Accepted |
+| [0006](0006-personal-assistant-pillar.md) | Personal-assistant domain profile (`Mneme.Assistant`) | Accepted |
+| [0007](0007-code-memory-profile.md) | Revision-scoped advisory code memory (`Mneme.Code`) | Proposed |
 
 ## Numbering
 

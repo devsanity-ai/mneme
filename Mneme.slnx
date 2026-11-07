@@ -11,17 +11,21 @@
     <Project Path="src/Mneme.Contracts/Mneme.Contracts.csproj" />
     <Project Path="src/Mneme.Agents.AI/Mneme.Agents.AI.csproj" />
     <Project Path="src/Mneme.Cli/Mneme.Cli.csproj" />
+    <Project Path="src/Mneme.Code/Mneme.Code.csproj" />
     <Project Path="src/Mneme.Mcp/Mneme.Mcp.csproj" />
     <Project Path="src/Mneme.Sidecar/Mneme.Sidecar.csproj" />
     <Project Path="src/Mneme.Studio/Mneme.Studio.csproj" />
     <Project Path="src/Mneme.Studio.Agent/Mneme.Studio.Agent.csproj" />
     <Project Path="src/Mneme.Studio.Desktop/Mneme.Studio.Desktop.csproj" />
+    <Project Path="src/Mneme.Assistant/Mneme.Assistant.csproj" />
     <Project Path="src/Mneme.Writer/Mneme.Writer.csproj" />
     <Project Path="src/Mneme/Mneme.csproj" />
   </Folder>
   <Folder Name="/tests/">
     <Project Path="tests/Mneme.Agents.AI.Tests/Mneme.Agents.AI.Tests.csproj" />
     <Project Path="tests/Mneme.Contracts.Tests/Mneme.Contracts.Tests.csproj" />
+    <Project Path="tests/Mneme.Assistant.Tests/Mneme.Assistant.Tests.csproj" />
+    <Project Path="tests/Mneme.Code.Tests/Mneme.Code.Tests.csproj" />
     <Project Path="tests/Mneme.Tests/Mneme.Tests.csproj" />
     <Project Path="tests/Mneme.Writer.Tests/Mneme.Writer.Tests.csproj" />
   </Folder>
